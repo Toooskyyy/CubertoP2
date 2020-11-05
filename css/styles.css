@@ -1,0 +1,100 @@
+* {
+        box-sizing: border-box;
+        /* font */
+        font-family: "Averta CY", sans-serif;
+    }
+    
+    body {
+        margin: 0;
+    }
+    /* Clear floats after the columns */
+    
+    .header {
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 10% 2%;
+        text-align: center;
+        height: 100vh;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .header h1 {
+        font-size: 5vw;
+        color: black
+    }
+    
+    .header h2 {
+        font-size: 4gitvw;
+        color: teal;
+    }
+    
+    .one-column {
+        background-color: black;
+    }
+    
+    .one-column h1 {
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+    }
+    
+    .two-column {
+        padding: 3% 13%;
+        float: left;
+        width: 50%;
+    }
+    
+    .two-column h1 {
+        font-size: 2vw;
+        color: black;
+    }
+    
+    .two-column h2 {
+        font-size: 3vw;
+        color: grey;
+    }
+    
+    .two-column h3 {
+        font-size: 2vw;
+        color: black;
+    }
+    
+    .four-column {
+        padding: 20px;
+        float: left;
+        width: 25%;
+        text-align: center;
+        background-color: black;
+    }
+}
+.four-column h1 {
+    font-size: 1vw;
+    color: green;
+    text-align: center;
+}
+.four-column h2 {
+    font-size: 1vw;
+    color: white;
+}
+.four-column h3 {
+    font-size: 1vw;
+    color: white;
+}
+.four-column h4 {
+    font-size: 1vw;
+    color: white;
+}
+.four-column h5 {
+    font-size: 1vw;
+    color: white;
+}
+@media screen and (max-width:700px) {
+    .column {
+        width: 100%;
+    }
+}
